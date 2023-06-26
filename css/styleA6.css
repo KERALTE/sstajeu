@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Sen:wght@700&display=swap');
+html,body{
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+    list-style: none;
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+  
+body::-webkit-scrollbar {
+    width: 0.1px;
+    background-color: transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgb(195, 192, 233);
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    background: linear-gradient(#ffffff, #eeeeee);
+}
+
+.logo{
+    position: relative;
+    left: 10%;
+    width: 130px;
+    padding: 0;
+}
+
+.pan{
+    margin-bottom: 16%;
+    padding: 18px;
+    border-left: solid 1px #b9b9b9;
+}
+
+.fa-cart-shopping{
+    padding-right: 10px;
+}
+
+.info{
+    margin-bottom: 11.8%;
+    padding: 18px;
+    border-left: solid 1px #b9b9b9;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.fa-user{
+    padding-right: 10px;
+}
+
+.deco{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 40px;
+}
+
+.un{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+
+}
+
+.deux{
+    align-items: flex-end;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin : 0;
+    padding : 0;
+}
+
+.trois{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.code{
+    position: relative;
+    top: 10px;
+    padding-left: 2%;
+}
+
+.bjr{
+    color: #ff0000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-right: solid 1px #b9b9b9;
+    border-left: solid 1px #b9b9b9;
+    padding-right: 10%; 
+    padding-left: 10%;
+}
+
+h3{
+    margin: 0;
+}
+
+.date{
+    position: relative;
+    top: 10px;
+    padding-right: 2%;
+}
+
+.prolo{
+    padding-left: 10px;
+}
+
+.proj{
+    width: 100%;
+    height: 300px;
+}
+
+.container{
+    position: relative;
+    background-color: #efefef;
+    margin: 0 4%;
+}
+
+.corp{
+    z-index: 1;
+    position: relative;
+    bottom: 120px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25%);
+}
+
+.tete{
+    position: relative;
+    left: 0.5px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.reserver{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    color: #ff0000;
+    background-color: #ffffff;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.echanger{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.crp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 60PX 40px 60px;
+}
+
+.opera{
+    width: 1166px;
+}
+
+.ticket{
+    position: relative;
+    padding-right: 10px;
+    bottom: 5px;
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.tickedit{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.rouge{
+    color: #ff0000;
+}
+
+.vun{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+    border-top: solid #e1e1e1;
+    padding: 30px 100px;
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+
+.vde{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid #e1e1e1;
+    padding: 30px 100px;
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+
+.pad{
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.pade{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.ligne{
+    display: flex;
+}
+
+.claire{
+    color: #949494;
+}
+
+.fa-download{
+    padding: 0 10px 0 0;
+}
+
+.DL{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #ff0000;
+    border: solid #ff0000;
+}
+
+.impr{
+    padding-top: 15px;
+}
+
+.fa-info{
+    color: #ff0000;
+    font-size: larger;
+    border: solid #ff0000;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: solid 1px #ff0000;
+
+}
+
+.heber{
+    padding-top: 100px;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+}
+
+.noir{
+    z-index: 0;
+    position: relative;
+    bottom: 175px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.last{
+    padding: 150px 150px 100px 150px;
+}
+
+.egal{
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.imgs{
+    width: 100%;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.image{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px #ffffff;
+}
+
+.espace{
+    padding: 10px 0;
+}
+
+.voir{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    html, body {
+        font-size: 0.9rem;
+    }
+    .container{
+        height: 1000px;
+    }
+    .deco {
+        padding: 35px;
+    }
+    .crp{
+        padding: 25px 60px;
+        background-color: #ffffff;
+    }
+    .corp{
+        height: 150px;
+    }
+    .basg{
+        width: 170px;
+        font-size: 17px;
+        padding-left: 50px;
+    }
+    .trouviere, .patrick, .ps, .peter, .bobby, .hamlet{
+        width: 147px;
+        height: 400px;
+        font-size: 0.9rem
+    }
+    img{
+        width: 150px;
+        padding-bottom: 0;
+    }
+    .rouge{
+        font-size: 0.9rem;
+    }
+    .gras{
+        font-size: 0.9rem
+    }
+    .reserv, .avert, .complet{
+        top: 45px;
+    }
+    .complet{
+        top: 65px;
+    }
+    .DL{
+        padding: 10px;
+        border: solid 2px #ff0000;
+        font-size: 12px;
+    }
+    .check{
+        position: absolute;
+        top: 155px;
+        left: 43px;
+        display: grid;
+        grid-template-rows: 72px 70px 60px 50px 50px;
+    }
+    .mi{
+        left: -4px;
+    }
+    .bas{
+        height: 1030px;
+    }
+    .proj{
+        height: 150px;
+    }
+    .sous{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .vérifier{
+        padding-left: 17px;
+    }
+    .billets{
+        font-size: 23px;
+    }
+    .opera{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 997px) {
+    html, body {
+        font-size: 0.8rem;
+    }
+    .proj{
+        height: 150px;
+    }
+    .container{
+        height: 800px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .pan{
+        padding: 10px;
+        margin-bottom: 15%;
+    }
+    .info{
+        padding: 10px;
+        margin-bottom: 11%;
+    }
+    .deco {
+        padding: 20px;
+    }
+    h3{
+        margin: 0;
+        font-size: 1rem;
+    }
+    .code{
+        top: 0;
+    }
+    .date{
+        top: 0;
+    }
+    .crp{
+        padding: 15px 20px;
+        font-size: 2rem;
+    }
+    .pad{
+        font-weight: normal;
+        font-size: small;
+    }
+    .corp{
+        height: 130px;
+    }
+    .haut, .haute{
+        padding: 10px 30px;
+        font-size: 15px;
+        width: 428px;
+    }
+    .last{
+        padding: 70px;
+    }
+    b{
+        font-weight: normal;
+    }
+    .heber{
+        font-size: 15px;
+    }
+    .impr{
+        font-size: 10px;
+    }
+    .DL{
+        font-size: 10px;
+    }
+    .opera{
+        width: 670px;
+    }
+    .vun, .vde{
+        padding: 30px 50px;
+    }
+    .txt{
+        font-size: 15px;
+    }
+    .basg{
+        position: relative;
+        bottom: 60px;
+        width: 170px;
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    .basun, .basde{
+        padding: 10px;
+    }
+    .trouviere, .patrick, .ps, .peter, .bobby, .hamlet{
+        width: 130px;
+        height: 300px;
+        font-size: 0.9rem;
+        padding: 10px;
+        line-height: 17px;
+    }
+    img{
+        width: 100px;
+        padding-bottom: 0;
+    }
+    .rouge{
+        font-size: 0.9rem;
+    }
+    .gras{
+        font-size: 0.9rem
+    }
+    .reserv, .avert, .complet{
+        top: 45px;
+    }
+    .complet{
+        top: 65px;
+    }
+    .check{
+        position: absolute;
+        top: 5px;
+        left: 13px;
+        display: grid;
+        grid-template-rows: 72px 70px 60px 50px 50px;
+    }
+    .mi{
+        left: -4px;
+    }
+    .bas{
+        height: 720px;
+    }
+    .proj{
+        height: 150px;
+    }
+    .sous{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .vérifier{
+        padding-left: 17px;
+    }
+    .billets{
+        font-size: 23px;
+    }
+}

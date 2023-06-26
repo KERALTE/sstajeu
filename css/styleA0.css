@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Sen:wght@700&display=swap');
+html,body{
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+    list-style: none;
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+  
+body::-webkit-scrollbar {
+    width: 0.1px;
+    background-color: transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgb(195, 192, 233);
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    background: linear-gradient(#ffffff, #eeeeee);
+}
+
+.logo{
+    position: relative;
+    left: 10%;
+    width: 130px;
+}
+
+.pan{
+    margin-bottom: 30px;
+    padding: 18px;
+    border-left: solid 1px #b9b9b9;
+}
+
+.fa-cart-shopping{
+    padding-right: 10px;
+}
+
+.info{
+    margin-bottom: 30px;
+    padding: 18px;
+    border-left: solid 1px #b9b9b9;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.fa-user{
+    padding-right: 10px;
+}
+
+.deco{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 40px;
+}
+
+.un{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+
+}
+
+.deux{
+    align-items: flex-end;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin : 0;
+    padding : 0;
+}
+
+.trois{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.code{
+    position: relative;
+    top: 10px;
+    padding-left: 2%;
+}
+
+.bjr{
+    color: #ff0000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-right: solid 1px #b9b9b9;
+    border-left: solid 1px #b9b9b9;
+    padding-right: 10%; 
+    padding-left: 10%;
+}
+
+h3{
+    margin: 0;
+}
+
+.date{
+    position: relative;
+    top: 10px;
+    padding-right: 2%;
+}
+
+.prolo{
+    padding-left: 10px;
+}
+
+.quatre{
+    background-color: #ffffff;
+}
+
+.proj{
+    width: 100%;
+    height: 300px;
+}
+
+.container{
+    position: relative;
+    height: 2100px;
+    background-color: #efefef;
+    margin: 0 4%;
+}
+
+.corp{
+    position: relative;
+    bottom: 100px;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25%);
+}
+
+.tete{
+    position: relative;
+    left: 0.5px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.reserver{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    color: #ff0000;
+    background-color: #ffffff;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.echanger{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.expun{
+    position: relative;
+    margin: 0 5%;
+    box-shadow: 0 0 10px #585858;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 60px;
+}
+
+.expdeux{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.exp{
+    font-weight: bolder;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+.paris{
+    width: 115px;
+    padding-right: 100px;
+    border-right: 1px solid #b9b9b9;
+}
+
+.places{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.place{
+    width: 83%;
+    padding-bottom: 10px;
+    color: #ff0000;
+}
+
+.ticknbox{
+    color: #464646;
+}
+
+a:hover {
+    text-decoration: none;
+    text-align: center;
+    width: 25%;
+    position: relative;
+    color: #ff0000;
+    background-color: #ffffff;
+    border: solid #ff0000;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    width: 25%;
+    position: relative;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: solid #ff0000;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ou{
+    text-align: center;
+    position: relative;
+    top: 110px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    transform: scale(1,1.4);
+}
+
+.bas{
+    position: relative;
+    margin: 0 5%;
+    border:  1px solid #b9b9b9;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 170px;
+}
+
+.autre{
+    font-weight: bolder;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+.tickedit{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin: 0 70px;
+    padding: 50px 0;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.cinq{
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket{
+    position: relative;
+    padding-right: 10px;
+    bottom: 10px;
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.credit{
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.opt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 50px 50px 50px;
+}
+
+.optdrt{
+    display: flex;
+}
+
+.lst{
+    display: flex;
+    padding: 0 10px 0 3px;
+}
+
+.rgn, .act, .csl, .cer, .prx{
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+.fa-angle-down, .fa-square{
+    padding-left: 8px;
+}
+
+.fa-bars-staggered{
+    padding: 0 8px 0 30px;
+}
+
+.coeur{
+    color: #ff0000;
+    padding-right: 4px;
+}
+
+.première{
+    display: flex;
+    margin: 0 70px 20px 70px;
+    border: 1px solid #b9b9b9;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.stade{
+    display: flex;
+    flex-direction: row;
+}
+
+.fifa{
+    width: 270px;
+    max-height: 100%;
+    height:auto;
+}
+
+.ceur{
+    color: #ffffff;
+    font-size: x-large;
+    position: relative;
+    top: 5px;
+    right: 30px;
+}
+
+h2, h6{
+    margin: 0;
+}
+
+.txt{
+    width: 2000px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+h5{
+    margin: 0;
+    font-weight: normal
+}
+
+.blo{
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.euro{
+    display: flex;
+    justify-content: end;
+}
+
+.prs{
+    display: flex;
+    justify-content: end;
+}
+
+.drt{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    top: 135px;
+}
+
+.sport{
+    color: #FF7514;
+}
+.parc{
+    color: #00AEE7;
+}
+.tourisme{
+    color: #02B176;
+}
+.cinema{
+    color: #CB3D39;
+}
+
+@media screen and (max-width: 1200px) {
+    html, body {
+        font-size: 0.9rem;
+    }
+    .container{
+        height: 2000px;
+    }
+    .deco {
+        padding: 35px;
+    }
+    .paris{
+        width: 90px;
+    }
+    .place{
+        padding-bottom: 0%;
+    }
+    .ou{
+        font-size: 15px;
+    }
+    .ticket{
+        bottom: 5px;
+    }
+    .optdrt{
+        position: relative;
+        right: 10px;
+    }
+    .rgn, .act, .csl, .cer, .prx{
+        padding-right: 15px;
+    }
+    .blo{
+        width: 900px;
+        position: relative;
+        z-index: 1;
+    }
+    .prs{
+        display: flex;
+        justify-content: end;
+    }
+    .drt{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: 145px;
+    }
+}
+
+
+@media screen and (max-width: 997px) {
+    html, body {
+        font-size: 0.8rem;
+    }
+    .proj{
+        height: 150px;
+    }
+    .container{
+        height: 1550px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .pan{
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .info{
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .deco {
+        padding: 20px;
+    }
+    h3{
+        margin: 0;
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 100%;
+    }
+    .code{
+        top: 0;
+    }
+    .date{
+        top: 0;
+    }
+    .expun{
+        top: 20px;
+    }
+    .paris{
+        width: 70px;
+    }
+    .place{
+        padding-bottom: 0%;
+    }
+    .expdeux{
+        padding: 20px;
+    }
+    .ou{
+        top: 50px;
+        font-size: 15px;
+    }
+    .bas{
+        top: 80px;
+    }
+    .tickedit{
+        margin: 0 50px;
+        padding: 20px 0;
+    }
+    .opt{
+        padding: 15px 30px 20px 30px;
+    }
+    .ticket{
+        bottom: 5px;
+    }
+    .optdrt{
+        position: relative;
+        right: 15px;
+    }
+    .rgn, .act, .csl, .cer, .prx{
+        padding-right: 8px;
+    }
+    .fa-angle-down, .fa-square{
+    padding-left: 4px;
+    }
+    .première{
+        margin: 0 50px 10px 50px;
+        height: 150px;
+    }
+    .ceur{
+        font-size: 20px;
+    }
+    .fifa{
+        width: 180px;
+    }
+    .txt{
+        position: relative;
+        top: 0;
+    }
+    .blo{
+        width: 1200px;
+        height: 139px;
+        position: relative;
+        z-index: 1;
+        bottom: 10px;
+        left: 5px;
+    }
+    .prs{
+        display: flex;
+        justify-content: end;
+    }
+    .drt{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: 130px;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    html, body {
+        font-size: 0.7rem;
+    }
+    .container{
+        height: 1900px;
+    }
+    .logo{
+        width: 50%;
+    }
+    .fa-cart-shopping{
+        padding-right: 5px;
+    }
+    .pan{
+        width: 70px;
+        padding: 7px;
+        margin-bottom: 15px;
+    }
+    .fa-user{
+        padding-right: 5px;
+    }
+    .info{
+        width: 100px;
+        padding: 7px;
+        margin-bottom: 15px;
+    }
+    .deco {
+        padding: 15px;
+    }
+    .proj{
+        height: 114px;
+    }
+    h3{
+        width: 70px;
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    h2{
+        font-size: 100%;
+    }
+    .code{
+        top: 0;
+    }
+    .date{
+        top: 0;
+        position: relative;
+        left: 25px;
+    }
+    .expun{
+        top: 20px;
+    }
+    .paris{
+        width: 50px;
+        height: auto;
+        padding-right: 10px;
+    }
+    .place{
+        padding-bottom: 0%;
+    }
+    .expdeux{
+        padding: 10px;
+    }
+    .ou{
+        top: 40px;
+        font-size: 10px;
+        margin-left: 41%;
+    }
+    .bas{
+        top: 60px;
+    }
+    .tickedit{
+        margin: 0 20px;
+        padding: 20px 0;
+    }
+    .opt{
+        padding: 5px 7px 10px 7px;
+        font-size: 0.55rem;
+    }
+    .ticket{
+        bottom: 5px;
+    }
+    .rgn, .act, .csl, .cer, .prx{
+        padding-right: 8px;
+    }
+    .fa-angle-down, .fa-square{
+    padding-left: 4px;
+    }
+    .première{
+        margin: 0 20px 5px 20px;
+        height: 150px;
+    }
+    .ceur{
+        position: relative;
+        right: 15px;
+        font-size: 10px;
+    }
+    .fifa{
+        width: 100px;
+        height: 90px;
+    }
+    .txt{
+        position: relative;
+        top: 0;
+    }
+    .blo{
+        width: 1200px;
+        position: relative;
+        z-index: 1;
+        bottom: 10px;
+        left: 5px;
+    }
+    .prs{
+        display: flex;
+        justify-content: end;
+    }
+    .drt{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: 135px;
+    }
+}
